@@ -1,0 +1,14 @@
+body {
+  background-color: #7a7a7a;
+}
+
+body .circle {
+  width: 20vw;
+  height: 20vw;
+  background-color: red;
+  border-radius: 50%;
+  position: relative;
+  left: 50px;
+  top: 100px;
+}
+/*# sourceMappingURL=style.css.map */
