@@ -1,0 +1,35 @@
+body
+{
+    margin: 50px;
+    font-size: 5vw;
+    background-color: rgb(107, 107, 107);
+    height: 2000px;
+    
+    .parent
+    {
+        position: relative;
+        padding: 30px;
+        background-color: blue;
+        .one
+        {
+            background-color: green;
+            /*position: relative;
+            left: 20px; 
+            position: absolute;  aby ustawic pozycje absolutna w konkretnym divie trzeba nadac "position: relative" na rodzica */
+            /* left: 300px; */
+            /* position: fixed;
+            top: 0;
+            left: 0; */
+            position: sticky;
+            top: 0;
+        }
+        .two
+        {
+            background-color: red;
+        }
+        .three
+        {
+            background-color: pink;
+        }
+    }
+}
