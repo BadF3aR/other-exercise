@@ -1,5 +1,10 @@
 body {
   background-color: #7a7a7a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 body .circle {
@@ -31,6 +36,38 @@ body .circle #c2 {
 }
 
 body .circle #c3 {
+  height: 2vw;
+  width: 2vw;
+}
+
+body .square {
+  width: 20vw;
+  height: 20vw;
+  background-color: blue;
+}
+
+body .square.outer1 {
+  position: relative;
+}
+
+body .square.inner1 {
+  border: 4px solid #7a7a7a;
+  position: absolute;
+  left: 105px;
+  top: 15px;
+}
+
+body .square #s1 {
+  width: 10vw;
+  height: 10vw;
+}
+
+body .square #s2 {
+  width: 5vw;
+  height: 5vw;
+}
+
+body .square #s3 {
   height: 2vw;
   width: 2vw;
 }
