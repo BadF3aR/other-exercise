@@ -1,0 +1,41 @@
+body {
+  background-color: #65c965;
+}
+
+body div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+body div a {
+  position: relative;
+  background-color: white;
+  padding: 3vh 8vw;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 51%, 0% 0%);
+          clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 51%, 0% 0%);
+}
+
+body div a:hover {
+  -webkit-transition: 3s;
+  transition: 3s;
+  background-color: yellow;
+  letter-spacing: 3px;
+  font-style: italic;
+  font-size: 3rem;
+  -webkit-clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+          clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+}
+/*# sourceMappingURL=style.css.map */
