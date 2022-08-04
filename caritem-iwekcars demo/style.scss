@@ -1,0 +1,20 @@
+body
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    .car-item
+    {
+        border: 2px solid black;
+        border-radius: 5px;
+        transition-duration: 1s;
+    }
+    .car-item:hover
+    {
+        transform: scale(1.2);
+    }
+}
